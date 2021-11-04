@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Patada</title>
+        <link rel="stylesheet" href="styleSheetPatada.css">
+        
+    </head>
+<body>
+
+<div class="column left">
+    <img src="./patada1.PNG" id="imgClickAndChange" width="150px" onclick="changeImage()">
+<script>
+    function changeImage(){
+        if(document.getElementById("imgClickAndChange").src="patada1.PNG")
+      {
+          document.getElementById("imgClickAndChange").src="patada2.PNG";
+      }
+      else
+      {
+          document.getElementById("imgClickAndChange").src="patada1.PNG"
+      }
+    }
+</script>
+</div>
+<div class="column right">
+    <script>
+
+    </script>
+ </div>
+</div>
+</body>
+</html>
+
+<!--FUNCION QUE DESCRIBE MOVIMIENTO SINUSAL
+    function animate() {
+    xnow = parseInt(item.style.left);
+    item.style.left = xnow+1+'px';
+    item.style.top = 200 + (Math.sin((2*Math.PI*xnow)/200))*document.height+'px';
+    setTimeout(animate,20); 
+  } -->

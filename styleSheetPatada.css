@@ -1,0 +1,33 @@
+/*CREATE TWO UNEQUAL COLUMNS*/
+.column {
+    float: left;
+    padding:10px;
+  }
+  /*left column*/
+  .column.left{
+    background-color: rgb(232, 248, 0);
+    width:fit-content;
+    padding-left: 0%;
+    padding-top: 0%;
+    padding-right: 0%;
+    padding-bottom:0%;
+  }
+  /*right column*/
+  .column.right{
+    background-color: rgb(232, 248, 0);
+    width: 846PX;
+  }
+  
+  
+  /* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+  @media screen and (max-width:600px) {
+    .column {
+      width: 100%;
+    }
+  }
+  /* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+@media screen and (max-width:600px) {
+    .column {
+      width: 100%;
+    }
+  }
